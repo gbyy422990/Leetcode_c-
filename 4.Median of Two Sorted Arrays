@@ -5,6 +5,7 @@ public:
         const int n2 = nums2.size();
         if (n1>n2) return findMedianSortedArrays(nums2, nums1);
         
+        #求出k的值
         const int k = (n1 + n2 + 1) / 2;
         int l = 0;
         int r = n1;
